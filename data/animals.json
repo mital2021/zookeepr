@@ -1,5 +1,5 @@
 {
-  "animals": [
+  "animalsArray": [
     {
       "id": "0",
       "name": "Spindle",
@@ -144,6 +144,10 @@
         "hungry"
       ],
       "id": "14"
+    },
+    {
+      "name": "Darlene",
+      "id": "jhgdja3ng2"
     }
   ]
 }

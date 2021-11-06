@@ -1,24 +1,32 @@
 {
-  "name": "zookeepr",
+  "name": "zookeepers",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest-cli": "^27.3.1",
+    "save-dev": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "directories": {
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mital2021/zookeepr.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mital2021/zookeepr/issues"
   },
-  "homepage": "https://github.com/mital2021/zookeepr#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/mital2021/zookeepr#readme"
 }
